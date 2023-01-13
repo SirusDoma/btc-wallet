@@ -37,3 +37,9 @@ Example:
 ```
 
 Return: Created Top-up object.
+
+## TODO
+1. Unit test
+2. More features (Track total balance, Auth, etc)
+3. More proper idempotency implementation (use Redis)
+4. Caching? (LRU for groupping the last 5 hours Top-ups)
